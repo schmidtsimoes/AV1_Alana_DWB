@@ -87,8 +87,7 @@ button:hover {
     margin-bottom: 10px;
     border-radius: 5px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between;    align-items: center;
     box-shadow: 0 2px 5px rgba(255, 105, 180, 0.1);
 }
 
