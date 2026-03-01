@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ffc0d9 0%, #ffb3d9 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff5f9;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(255, 105, 180, 0.2);
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    color: #d946a6;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#inputTarefa {
+    flex: 1;
+    padding: 12px 15px;
+    border: 2px solid #ffc0d9;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #555;
+    transition: border-color 0.3s;
+}
+
+#inputTarefa:focus {
+    outline: none;
+    border-color: #d946a6;
+    box-shadow: 0 0 8px rgba(217, 70, 166, 0.2);
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #d946a6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c41e8e;
+}
+
+.mensagem-erro {
+    color: #d946a6;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-align: center;
+    min-height: 20px;
+}
+
+.lista {
+    list-style: none;
+}
+
+.lista li {
+    padding: 15px;
+    background-color: #fff;
+    border-left: 4px solid #d946a6;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(255, 105, 180, 0.1);
+}
+
+.lista li::before {
+    content: "🌸";
+    margin-right: 10px;
+}
+
+.btnRemover {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btnRemover:hover {
+    background-color: #ff1493;
+}
