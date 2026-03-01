@@ -78,7 +78,7 @@ function exibirMensagem(texto) {
 }
 
 // Função para limpar mensagem
-function limparMensagem() {}
+function limparMensagem() {
     mensagem.textContent = '';
 }
 
